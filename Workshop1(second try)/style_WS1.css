@@ -33,51 +33,62 @@ a[target = "_blank"]:hover {
 
 }
 	
-.searchInput {
+.searchInput input[type="text"]{
     width: 380px;
     height: 30px;
-    border: 1px, solid, red;
+    border: 1px solid red;
     font-size: 20px;
 }
 
-.searchButton {
+.searchButton input[type="submit"]{
     width: 180px;
     height: 30px;
-    background-color: lightgray;
+    background: lightgray;
     font-weight: bold;
     font-style: italic;
     font-size: 16px;
     color: black;
-    border: 0;
+    border: 0px;
 }
 
 #footer{
+    background: lightsalmon;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+}
+
+#searchArea{
 
 }
 
-#searchArea {
-    background-color: lightgray;
+.col-1{
+    background: lightgray;
     height: 50px;
     margin: 2px;
     padding-left: 10px;
     padding-top: 10px;
     float: left;
     overflow: auto;
-}
-
-.col-1 {
     width: 200px;
     font-size: x-large;
-    display: inline-block;
 }
 
 .col-2{
+    background: lightgray;
+    height: 50px;
+    margin: 2px;
+    padding-left: 10px;
+    padding-top: 10px;
+    float: left;
+    overflow: auto;
     width: 400px;
-    display: inline-block;
 }
 
 .col-2:hover{
-    color:whitesmoke
+    background-color: whitesmoke;
 }
 
 
