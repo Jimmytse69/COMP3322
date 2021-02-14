@@ -60,11 +60,7 @@ a[target = "_blank"]:hover {
     padding: 1rem;
 }
 
-#searchArea{
-
-}
-
-.col-1{
+#searchArea div{
     background: lightgray;
     height: 50px;
     margin: 2px;
@@ -72,18 +68,14 @@ a[target = "_blank"]:hover {
     padding-top: 10px;
     float: left;
     overflow: auto;
+}
+
+.col-1{
     width: 200px;
     font-size: x-large;
 }
 
 .col-2{
-    background: lightgray;
-    height: 50px;
-    margin: 2px;
-    padding-left: 10px;
-    padding-top: 10px;
-    float: left;
-    overflow: auto;
     width: 400px;
 }
 
