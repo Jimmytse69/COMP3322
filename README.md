@@ -14,8 +14,8 @@
 
 ### Assignment 1 - restructure and redesign HKU HK Study Webpages
 * part1: HTML
-* -correctness; diversity(not abusively using tables); integrity (same header, footer, etc)
+* correctness; diversity(not abusively using tables); integrity (same header, footer, etc)
 * part2: CSS
-* -select and hover effect using pure CSS; Responsive Web Design; maintainability (single stylesheet)
+* select and hover effect using pure CSS; Responsive Web Design; maintainability (single stylesheet)
 * part3: peer review
 * deploy at https://i7.cs.hku.hk/~c3322b/assign1/h3568932/index.html (require id and pw, for own record only)
