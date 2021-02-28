@@ -19,3 +19,4 @@
 * select and hover effect using pure CSS; Responsive Web Design; maintainability (single stylesheet)
 * part3: peer review
 * deploy at https://i7.cs.hku.hk/~c3322b/assign1/h3568932/index.html (require id and pw, for own record only)
+* original webpages: https://hkstudy.hku.hk/
