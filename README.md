@@ -12,7 +12,7 @@
 * part3: Responsive Web Design
 * deploy at http://i7.cs.hku.hk/~h3568932/Workshop1/index_WS1.html
 
-### Assignment 1 - restructure and redesign HKU HK Study Webpages
+### Assignment 1 - restructure and redesign HKU HK Study Webpages [due 28/2 23:59; peer review TBA]
 * part1: HTML
 * correctness; diversity(not abusively using tables); integrity (same header, footer, etc)
 * part2: CSS
