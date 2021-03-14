@@ -23,16 +23,21 @@
 
 ### Workshop 2 - retrieves real-time MTR train data via MTR Next Train Open Data API
 #### part1: Examine MTR Next Train Open Data
-* https://data.gov.hk/en-data/dataset/mtr-data2-nexttrain-data
 * understant the structure of the returned JSON string and its meaning.
+* https://data.gov.hk/en-data/dataset/mtr-data2-nexttrain-data
+* 
 * try to manually composing the request URL and get the data.
 * https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php
 * (add ?line=[$line]&sta=[$station], where line and station is alias according to document)
 #### part2: Implement the program
 * HTML:
 * fill in selection options for lines and stations
+* 
 * <script>(javascript):
 * build a "database", list out all stations with asscociated class=[$line]
 * check whether user selected different line, if so, switch to corresponding set of stations (addEventListener)
+* 
 * -AJAX:
 * add a fetch() request to request and get data according to different situation, (e.g. Normal, Special, Data Absence)
+* 
+* deploy at http://i7.cs.hku.hk/~h3568932/Workshop2/index_WS2.html
