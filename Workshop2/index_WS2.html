@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Workshop 2</title>
+  <style>
+  span {
+    margin-right: 1.5em;
+  }
+  </style>
+</head>
+<body>
+  <h1>Using fetch to access MTR Next Train API</h1>
+  <label for="line">Choose the MTR line:</label>
+  <select name="line" id="line">
+    <option value="AEL" selected>Airport Express</option>
+    <option value="TCL">Tung Chung line</option>
+    <option value="WRL">West Rail line</option>
+    <option value="TKL">Tseung Kwan O line</option>
+  </select>
+  <br><br>
+  <label for="station">Choose the Station:</label>
+  <select name="station" id="station">
+    <option class="AEL" value="HOK">Hong Kong</option>
+    <option class="AEL" value="KOW">Kowloon</option>
+    <option class="AEL" value="TSY">Tsing Yi</option>
+    <option class="AEL" value="AIR">Airport</option>
+    <option class="AEL" value="AWE">AsiaWorld Expo</option>
+  </select>
+  <br><br>
+  <button id="bttn">Get Train Data</button>
+  <div id="output" style="margin-top: 1rem"></div>
+
+
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
+
+
